@@ -15,7 +15,7 @@ L clamp(I min, L value, D max) {
 }
 
 template<typename T>
-T CheckInput(T choice)
+T CheckCinInput(T choice)
 {
 	while (1) {
 		if (std::cin.fail()) {
